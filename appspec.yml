@@ -1,0 +1,17 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/devops-demo
+hooks:
+  BeforeInstall:
+    - location: shScripts/cleanup.sh
+      timeout: 180
+      runas: root
+  AfterInstall:
+    - location: shScripts/dependencies.sh
+      timeout: 180
+      runas: root
+    - location: shScripts/runApp.sh
+      timeout: 180
+      runas: root
