@@ -17,9 +17,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h1>Deployed to AWS with Github actions!</h1>
         <button onClick={play}>Click me</button>
         {audio &&
-          <img src="https://i.pinimg.com/originals/88/82/bc/8882bcf327896ab79fb97e85ae63a002.gif" alt="You got rickrolled" style={{width: "90%", height: "90%"}} />
+          <img src="https://i.pinimg.com/originals/88/82/bc/8882bcf327896ab79fb97e85ae63a002.gif" alt="Wow!" style={{width: "90%", height: "90%"}} />
         }
       </header>
     </div>
