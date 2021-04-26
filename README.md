@@ -1,4 +1,4 @@
-# Code Repository for Video Demon
+# Code Repository for Video Demo
 ## Continuous Deployment to AWS EC2 using Github Actions
 This repository contains the example application used in the video demo [Continuous Deployment to AWS EC2 using Github Actions](https://www.youtube.com/watch?v=B04c0lbzMC4). The instructions for the demo are also available as a written tutorial below.
 
